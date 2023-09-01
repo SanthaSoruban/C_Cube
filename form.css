@@ -1,0 +1,28 @@
+.content-card{
+    padding: 40px;
+    width: 100%;
+    box-shadow: 0px 0px 50px rgba(196, 191, 191, .5);
+    border-radius: 10px;
+    margin-left: 0px;
+    animation: lefttrans ;
+    animation-duration: .5s;
+}
+.txt-border2{
+    padding: 0px;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, .2);
+    border-color: #5E85CC;
+    box-shadow: 0px 0px 10px #b1c9f7;
+}
+.common-btn{
+    background-color: #5E85CC;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius:6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+    transition: .35s;
+    margin-left: 20px;
+}

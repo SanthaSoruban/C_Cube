@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" href="form.css">
+
+<div class ="content-card">
+    <h1>Add Users</h1>
+    <form [formGroup]="studentForm" class=" flex" id="add-form">
+    
+        <div class="txt flex100">
+            <fieldset class="txt-border2" ><input autofocus type="text" formControlName="u_name" class="txt2"/><legend>User's Name:</legend></fieldset><br>
+        </div>
+        <div class="txt flex50">
+            <fieldset class="txt-border2" ><input type="text" formControlName="u_rollno" class="txt2"/><legend>Roll No:</legend></fieldset><br>
+        </div>
+        <div class="txt flex50">
+            <fieldset class="txt-border2" ><input type="text" formControlName="u_department" class="txt2"/><legend>Department:</legend></fieldset><br>
+        </div>
+        <div class="txt flex50">
+            <fieldset class="txt-border2" ><input type="radio" id="male" formControlName="gender" value ="male" /> <label for="male">Male</label><input id="female" type="radio" formControlName="gender" value="Female"/><label for="female">Female</label><legend >Gender:</legend></fieldset><br>
+        </div>
+        <div class="txt flex50">
+            <fieldset class="txt-border2" ><input type="text" formControlName="academic_year" class="txt2"/><legend>Academic Year:</legend></fieldset><br>
+        </div>
+        <div class="txt flex50">
+            <fieldset class="txt-border2" ><select class="txt2" formControlName="user_type"> <option value="" disabled selected></option><option value="ug">UG students</option><option value="pg">PG students</option><option value="staff">Staff</option></select><legend>User Type:</legend></fieldset><br>
+        </div>
+        <div class="txt flex50"></div>
+        <div class="txt flex100">
+            <button class="common-btn" type="submit" (click)="studentSubmit()">Submit</button>
+            <button class="common-btn" type="reset" >Clear</button><br><br>
+        </div>
+        
+    
+    </form>
+    
+</div>

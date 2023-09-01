@@ -1,0 +1,33 @@
+body{
+	background-image: url("file:///C:/Users/kisho/Downloads/My%20project.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+       
+}
+.logo{
+	position: relative;
+	 width: 25%;
+	  padding-left: 35%;
+	
+}
+.button{
+   position: absolute;
+   background-color: transparent;
+	color: whitesmoke;
+	bottom: 60%;
+	left: 20%;
+}
+.button2{
+   position: absolute;
+   background-color: transparent;
+	color: whitesmoke;
+	bottom: 60%;
+	left: 45%;
+}
+.button3{
+   position: absolute;
+   background-color: transparent;
+	color: whitesmoke;
+	bottom: 60%;
+	left: 70%;
+}
